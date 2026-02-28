@@ -1,5 +1,4 @@
 from pathlib import Path
-import random
 import os
 
 starterCode = "with open(\"input.txt\", \"r\") as f:\n\tINPUT = f.read().split(\"\\n\")"
