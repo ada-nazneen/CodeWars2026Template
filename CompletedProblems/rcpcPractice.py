@@ -19,3 +19,14 @@ def Secret_Spy2():
         t += int(item)
     print(t)
 
+#Pony Counter
+def pony():
+    import sys
+    inp = sys.stdin.read().split("\n")
+    pon = int(inp[0])*(1+float(inp[2]))*int(inp[3])
+    print(f"At the current rate of growth there will be {int(pon)} ponies in 284 years.")
+    if int(inp[1]) >= pon:
+        print("Celestia won't need to add space yet!")
+    else:
+        space = int(inp[1])-pon
+        print(f"Celestia will need to add space for at least {space} ponies!")

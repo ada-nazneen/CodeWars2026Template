@@ -1,4 +1,2 @@
-with open("input.txt", "r") as f:
-	INPUT = f.read().split("\n")
-
-print(INPUT[0])
+import sys
+lines = sys.stdin.read().split("\n")
