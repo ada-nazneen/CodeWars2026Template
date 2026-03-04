@@ -30,3 +30,15 @@ def pony():
     else:
         space = int(inp[1])-pon
         print(f"Celestia will need to add space for at least {space} ponies!")
+
+#find item in string
+def find_thing():
+    import sys
+    thing = sys.stdin.read().split("\n")
+    x = thing[1].find(thing[0])
+    print(f"{thing[0]} is at index: {x}")
+    #FANCY LIST THINGY WE CAN USE    
+    # listy = [[1, 50], [-1, -1], [4902, 20]]
+    # for first, second in listy:
+    #     print(first)
+    #     print(second)
