@@ -1,8 +1,9 @@
 from pathlib import Path
 import os
 
-starterCode = "with open(\"input.txt\", \"r\") as f:\n\tINPUT = f.read().split(\"\\n\")"
 starterCode = "import sys\nlines = sys.stdin.read().split(\"\\n\")"
+starterCode = "with open(\"input.txt\", \"r\") as f:\n\tINPUT = f.read().split(\"\\n\")"
+
 
 def create(probCount = 30):
     for i in range(probCount):

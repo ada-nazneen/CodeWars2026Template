@@ -1,2 +1,2 @@
-import sys
-lines = sys.stdin.read().split("\n")
+with open("input.txt", "r") as f:
+	INPUT = f.read().split("\n")
