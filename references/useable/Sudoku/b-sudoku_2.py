@@ -1,6 +1,6 @@
 # Student reference: https://docs.google.com/document/d/1k98cnkeHV0ICjOMLOBIEqHxkRgRKUaVqte_5iSDNctQ/preview?usp=sharing
 
-from sudokuLibAdvanced import display_sudoku, find_empty_cell, remove_cells, 
+from sudokuLibAdvanced import display_sudoku, find_empty_cell, remove_cells
 from random import shuffle
 
 def sudokuCoordinates(coords):

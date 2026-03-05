@@ -1,0 +1,21 @@
+Solving Sudoku - Student Reference
+find_empty_cell(sudoku)	
+The find_empty_cell function takes a Sudoku board as input and searches for the first empty cell (a cell with a value of 0) within the board. It returns the coordinates of the first empty cell as a list containing the row and column indices. If no empty cell is found, the function returns [-1, -1] to indicate that there are no empty cells remaining on the Sudoku board.
+Inputs
+Outputs
+sudoku - (9x9) array - A 9x9 matrix representing the Sudoku board, where each element is a number from 0 to 9.
+[row, column] - 2 item array - The coordinates of an empty cell if a 0 is present in the 9x9 sudoku board
+
+
+[-1, -1] - 2 item array - A base case to indicate the absence of empty cells on the Sudoku board.
+
+remove_cells(sudoku, cells_to_remove)	
+The remove_cells function takes a solved Sudoku board and the number of cells to remove as input. It randomly removes a specified number of cells from the solved Sudoku to create a puzzle with a desired difficulty level. The function iterates cells_to_remove times, selecting a random cell by generating random row and column indices between 0 and 8. The value of the selected cell is set to 0, representing an empty cell.
+Inputs
+Outputs
+sudoku - (9x9) array - A 9x9 matrix representing the Sudoku board, where each element is a number from 0 to 9.
+harder_sudoku - (9x9) array - A 9x9 matrix representing the Sudoku board, where each element is a number from 0 to 9. 
+cells_to_remove - Integer - An integer specifying the number of cells to remove from the Sudoku board. A sudoku board has 81 cells.
+
+
+
